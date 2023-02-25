@@ -1,0 +1,41 @@
+.cards{
+    width: 100%;
+  background-color: aqua;
+  padding: 20px;
+  display: flex;
+}
+.a{
+    width: 100%;
+    height: 100%;
+ 
+}
+.card1{
+    width: 10%;
+    height: 10%;
+}
+.card1 img{
+    
+    display: flex;
+}
+.card_title{
+    font-size: .9vmax;
+    position: absolute;
+    top: 40%;
+    left:3%;
+    width: 50%;
+    line-height: .9vmax;
+}
+.card_runtime{
+    font-size: .6vmax;
+    position: absolute;
+    top: 50%;
+    left:3%;
+}
+.card_description{
+    font-size: .5vmax;
+    width: 10%;
+    text-align: start;
+    position: absolute;
+    top: 55%;
+    left:3%;
+}
